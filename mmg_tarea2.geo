@@ -3,22 +3,9 @@
 // sino un  rectangulo de un ancho muy pequegno
 //
 lc  = 10;      // tamagno de los elementos en el rectangulo grande
-lc2 = 0.5;    // tamagno de los elementos en el rectangulo intermedio
+lc2 = 1;    // tamagno de los elementos en el rectangulo intermedio
 lc3 = 0.01;   // tamagno de los elementos en la falla
 //+
-// Datos que definen la falla. La variable eps habla del ancho del rectangulo que define la falla
-//
-tip         = 3;
-dip         = 40;
-theta       = ((-90 + dip)/180.0)*Pi;
-width       = 10;
-eps         = 0.01;
-//
-// Puntos del 1 al 4 definen el rectangulo grande
-//
-//
-//
-//
 
 // Todos los puntos
 
