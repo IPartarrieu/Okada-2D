@@ -2,7 +2,7 @@ $MeshFormat
 4.1 0 8
 $EndMeshFormat
 $PhysicalNames
-7
+10
 1 1 "superficie"
 1 2 "profundidad"
 1 3 "derecha"
@@ -10,6 +10,9 @@ $PhysicalNames
 1 5 "bordeg"
 1 6 "falla1"
 1 7 "falla2"
+2 1 "Dominio_1"
+2 2 "Dominio_2"
+2 3 "Dominio_3"
 $EndPhysicalNames
 $Entities
 14 20 3 0
@@ -47,7 +50,7 @@ $Entities
 18 65.8 -30.8 0 66 -30.6 0 0 2 12 -13 
 19 60.21 -30.6 0 66 -24.8 0 1 6 2 13 -14 
 20 60.01 -25 0 60.21 -24.8 0 0 2 14 -11 
-1 0 -50 0 100 0 0 0 10 1 2 3 4 5 6 -20 -19 -18 -17 
-2 0 -50 0 85 -15 0 0 6 7 8 9 10 11 12 
-3 0 -50 0 75 -25 0 0 4 13 14 15 16 
+1 0 -50 0 100 0 0 1 1 10 1 2 3 4 5 6 -20 -19 -18 -17 
+2 0 -50 0 85 -15 0 1 2 6 7 8 9 10 11 12 
+3 0 -50 0 75 -25 0 1 3 4 13 14 15 16 
 $EndEntities

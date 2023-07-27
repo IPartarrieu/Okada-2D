@@ -178,3 +178,9 @@ Physical Curve("falla1",6) = {19};
 //+
 Physical Curve("falla2",7) = {17};
 
+// Dominios
+Physical Surface("Dominio_1", 1) = {1};
+//+
+Physical Surface("Dominio_2", 2) = {2};
+//+
+Physical Surface("Dominio_3", 3) = {3};
