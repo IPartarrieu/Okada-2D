@@ -2,9 +2,9 @@
 
 Modelo analítico 2D de dislocación elástica para una falla transcurrente vertical (caso límite del modelo de **Okada, 1985**), con una demo interactiva en Streamlit.
 
-🔗 **Demo en vivo:** _pendiente de desplegar — ver instrucciones abajo_
+🔗 **Demo en vivo:** [okada-2d.streamlit.app](https://okada-2d-elk2vgsmc4zwq2ytuwxe66.streamlit.app/)
 
-![demo](https://img.shields.io/badge/streamlit-demo-ff4b4b?logo=streamlit&logoColor=white)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://okada-2d-elk2vgsmc4zwq2ytuwxe66.streamlit.app/)
 
 ## Qué hace
 
@@ -19,12 +19,6 @@ cd okada2d
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-## Desplegar gratis (Streamlit Community Cloud)
-
-1. Andá a [share.streamlit.io](https://share.streamlit.io) y conectate con tu cuenta de GitHub.
-2. "New app" → elegí este repo, branch `main`, main file path `okada2d/app.py`.
-3. Deploy. En un par de minutos tenés el link público — pegalo en el badge de arriba y en tu perfil de GitHub.
 
 ## Ejercicio original (FEM)
 
